@@ -12,7 +12,6 @@ p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-  
     margin: 0;
     background: rgba(0, 0, 0, 0.4) url(aaa.jpg);
     background-attachment: fixed;
@@ -103,6 +102,31 @@ body{
 .but1:active{
     background-color: rgba(53, 52, 52, 0.5);
 }
+.banner{
+  z-index: 1;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 7px;
+  backdrop-filter: blur(.5rem);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.banner__text{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  size: 20px;
+  /*display: inline-block;*/
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.banner__content{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  /*display: inline-block;*/
+  padding: 16px;
+}
 .para{
   backdrop-filter: blur(3px);
   display: inline-block;
@@ -126,6 +150,7 @@ body{
     background-color: rgba(255, 255, 255, 0.4);
 }
 .heading-c{
+  z-index: 5;
   margin: 20px;
   padding: 0px;
   border-radius: 20px;
@@ -133,25 +158,10 @@ body{
   background-color: rgba(0, 0, 0, 0.45);
   height: 450px;
 }
-.banner{
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  padding: 7px;
-  backdrop-filter: blur(10px);
-  background-color: rgba(0, 0, 0, 0.5);
-}
-.banner__text{
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  size: 20px;
-  color: aliceblue;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.banner__content{
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  padding: 16px;
+.button_menu,.button_cart{
+ background: none;
+ border: none;
+ border-radius: 8px;
+ color: aliceblue;
+ cursor: pointer;
 }

@@ -1,15 +1,34 @@
 <!DOCTYPE html>
+<html>
 <head>
     <title>Gota bags</title>
-    <script src="index.js"></script>
+    
     <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
 </head>
 <body>
+    <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+        <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+        <a href="#" class="w3-bar-item w3-button">Link 1</a>
+        <a href="#" class="w3-bar-item w3-button">Link 2</a>
+        <a href="#" class="w3-bar-item w3-button">Link 3</a>
+      </div>
     <div class="banner">
         <div class="banner__content">
             <div class="banner__text">
                 Gota Bags store
-            </div>
+                <button style="float: right;
+                 margin-left: 20px;
+                    margin-right: 10px; left: -500px;" type="button" onclick="w3_open()" class="button_menu"><span class="material-icons">menu</span></button>
+            <button style="float: right;
+             margin-left: 20px;
+                margin-right: 10px; left: -500px;" type="button" onclick="google.com" class="button_cart"><span class="material-icons">shopping_cart</span></button>
+        
+        </div>
+            <div>
+                </div>
         </div>
     </div>
     <div class="heading-c">
@@ -94,7 +113,8 @@
         <button style="backdrop-filter: blur(3px);" type="button" class="but2" onclick="google.com"><span>Add to cart </span></button>
         
     </div></center>
-    <p>*Please note that an extra amount will be charged from the european customers and the customers from Switzerland, Norway and Iceland when you checkout due to the government imposed taxes. We are sorry for the inconvenience caused</p>
+    <p>*Please note that an extra amount will be charged from the European customers and the customers from Switzerland, Norway and Iceland when you checkout due to the government imposed taxes. We are sorry for the inconvenience caused</p>
     
-
+    <script src="index.js"></script>
 </body>
+</html>
