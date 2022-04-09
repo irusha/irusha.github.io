@@ -12,7 +12,8 @@ p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-   
+  
+    margin: 0;
     background: rgba(0, 0, 0, 0.4) url(aaa.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -125,9 +126,32 @@ body{
     background-color: rgba(255, 255, 255, 0.4);
 }
 .heading-c{
+  margin: 20px;
   padding: 0px;
   border-radius: 20px;
   backdrop-filter: blur(4px);
   background-color: rgba(0, 0, 0, 0.45);
   height: 450px;
+}
+.banner{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 7px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.banner__text{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  size: 20px;
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.banner__content{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 16px;
 }
