@@ -6,14 +6,14 @@
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
-
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
-    <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
-        <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
-        <a href="#" class="w3-bar-item w3-button">Link 1</a>
-        <a href="#" class="w3-bar-item w3-button">Link 2</a>
-        <a href="#" class="w3-bar-item w3-button">Link 3</a>
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;background-color: rgba(0, 0, 0, 0.5); backdrop-filter: blur(0.5rem); margin-top: 69.1px;" id="rightMenu">
+        
+        <a href="#" class="w3-bar-item w3-button" style="color: aliceblue; background-color: rgba(0, 0, 0, 0.1); padding: 15px;">Link 1</a>
+        <a href="#" class="w3-bar-item w3-button" style="color: aliceblue; background-color: rgba(0, 0, 0, 0.1); padding: 15px;">Link 2</a>
+        <a href="#" class="w3-bar-item w3-button" style="color: aliceblue; background-color: rgba(0, 0, 0, 0.1); padding: 15px;">Link 3</a>
       </div>
     <div class="banner">
         <div class="banner__content">
@@ -21,10 +21,10 @@
                 Gota Bags store
                 <button style="float: right;
                  margin-left: 20px;
-                    margin-right: 10px; left: -500px;" type="button" onclick="w3_open()" class="button_menu"><span class="material-icons">menu</span></button>
+                    margin-right: 10px; left: -500px;" type="button" onclick="w3_open()" class="button_menu" id="menub"><span class="material-icons" id="menubicon">menu</span></button>
             <button style="float: right;
              margin-left: 20px;
-                margin-right: 10px; left: -500px;" type="button" onclick="google.com" class="button_cart"><span class="material-icons">shopping_cart</span></button>
+                margin-right: 10px; left: -500px;" type="button" onclick="" class="button_cart"><span class="material-icons">shopping_cart</span></button>
         
         </div>
             <div>
@@ -100,7 +100,7 @@
             <center style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Gotabag bonn voyage</center>
         </p>
         <center><img src="gota.png"></center>
-        <center><p style="font-size: 30;margin-left: 0px;">$419</p></center>
+        <center><p style="font-size: 30;margin-left: 0px;">$919</p></center>
         <button style="backdrop-filter: blur(3px);" type="button" class="but2" onclick="google.com"><span>Add to cart </span></button>
         
     </div>
@@ -113,7 +113,7 @@
         <button style="backdrop-filter: blur(3px);" type="button" class="but2" onclick="google.com"><span>Add to cart </span></button>
         
     </div></center>
-    <p>*Please note that an extra amount will be charged from the European customers and the customers from Switzerland, Norway and Iceland when you checkout due to the government imposed taxes. We are sorry for the inconvenience caused</p>
+    <p style="font-size: 10px;">*Please note that an extra amount will be charged from the European customers and the customers from Switzerland, Norway and Iceland when you checkout due to the government imposed taxes. We are sorry for the inconvenience caused</p>
     
     <script src="index.js"></script>
 </body>
