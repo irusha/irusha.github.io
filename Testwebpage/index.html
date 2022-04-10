@@ -9,22 +9,25 @@
       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
-    <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;background-color: rgba(0, 0, 0, 0.5); backdrop-filter: blur(0.5rem); margin-top: 69.1px;" id="rightMenu">
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;background-color: rgba(0, 0, 0, 0.5); backdrop-filter: blur(0.8rem); margin-top: 69.1px; width: 25%;" id="rightMenu">
         
-        <a href="#" class="w3-bar-item w3-button" style="color: aliceblue; background-color: rgba(0, 0, 0, 0.1); padding: 15px;">Your orders</a>
-        <a href="#" class="w3-bar-item w3-button" style="color: aliceblue; background-color: rgba(0, 0, 0, 0.1); padding: 15px;">Our dealers</a>
-        <a href="#" class="w3-bar-item w3-button" style="color: aliceblue; background-color: rgba(0, 0, 0, 0.1); padding: 15px;">About us</a>
-      </div>
+        <a href="#" class="w3-bar-item w3-button" style="color: aliceblue; background-color: rgba(0, 0, 0, 0.1); padding: 15px; padding-left: 20px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" id="sidebarelements">Your orders <span style="float: right;" class="material-icons" id="ordersico">
+            shopping_bag
+            </span></a>
+        <a href="#" class="w3-bar-item w3-button" style="color: aliceblue; background-color: rgba(0, 0, 0, 0.1); padding: 15px; padding-left: 20px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" id="sidebarelements1">Our dealers</a>
+        <a href="#" class="w3-bar-item w3-button" style="color: aliceblue; background-color: rgba(0, 0, 0, 0.1); padding: 15px; padding-left: 20px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" id="sidebarelements2">About us</a>
+    </div>
     <div class="banner">
-        <div class="banner__content">
-            <div class="banner__text">
-                Gota Bags store
+        <div class="banner__content" id="banner">
+            <div class="banner__text" >
+                <strong id="banner__text">
+                GotaBags store</strong>
                 <button style="float: right;
                  margin-left: 20px;
                     margin-right: 10px; left: -500px;" type="button" onclick="w3_open()" class="button_menu" id="menub"><span class="material-icons" id="menubicon">menu</span></button>
             <button style="float: right;
              margin-left: 20px;
-                margin-right: 10px; left: -500px;" type="button" onclick="" class="button_cart"><span class="material-icons">shopping_cart</span></button>
+                margin-right: 10px; left: -500px;" type="button" onclick="" class="button_cart" class="cartb" id="cbut"><span class="material-icons" id="cartbicon">shopping_cart</span></button>
         
         </div>
             <div>
@@ -32,12 +35,13 @@
         </div>
     </div>
     <div class="heading-c">
-    <h1 id="headings" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Gota bags</h1>
+    <h1 id="headings" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">GotaBags</h1>
     <p style="font-size: 20px;">Our bags are the best bags for the fashionable youth!</p>
     <p>We support #gotagohome campaign</p>
     <button style="backdrop-filter: blur(3px);" type="button" class="but1" onclick="google.com"><span>More about us </span></button>
+    
 </div>
-<h1 id="headings">Why you should choose our bags?</h1>
+<h1 id="headings" style="font-size: 100px;" class="custhead">Why you should choose our bags?</h1>
     <center>
     <div class="para">
         <p>
@@ -114,7 +118,6 @@
         
     </div></center>
     <p style="font-size: 10px;">*Please note that an extra amount will be charged from the European customers and the customers from Switzerland, Norway and Iceland when you checkout due to the government imposed taxes. We are sorry for the inconvenience caused</p>
-    
     <script src="index.js"></script>
 </body>
 </html>

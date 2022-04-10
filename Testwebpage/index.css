@@ -1,6 +1,5 @@
 #headings{
     color: whitesmoke;
-    margin-left: 20px;
     font-size: 100px;
     text-align: center; 
     padding: 26px 0; 
@@ -115,7 +114,7 @@ body{
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  size: 20px;
+  size: 35px;
   /*display: inline-block;*/
   color: aliceblue;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -155,8 +154,8 @@ body{
   padding: 0px;
   border-radius: 20px;
   backdrop-filter: blur(4px);
+  padding-bottom: 30px;
   background-color: rgba(0, 0, 0, 0.45);
-  height: 450px;
 }
 .button_menu,.button_cart{
  background: none;
