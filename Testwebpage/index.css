@@ -11,6 +11,7 @@ p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
+    position: relative;
     margin: 0;
     background: rgba(0, 0, 0, 0.4) url(aaa.jpg);
     background-attachment: fixed;
@@ -20,6 +21,7 @@ body{
     background-size: cover;
     background-blend-mode: darken
 }
+
 
 .but2{
   transition: all 0.5s;
