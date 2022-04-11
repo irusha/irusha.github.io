@@ -31,6 +31,8 @@ window.addEventListener("resize", function(event) {
   if(document.body.clientWidth < 600){
     console.log("Ok")
     this.document.getElementById("headings").style.fontSize = "70px"
+    this.document.getElementById("headings1").style.fontSize = "70px"
+    this.document.getElementById("headings2").style.fontSize = "70px"
     }
   else{
     this.document.getElementById("headings").style.fontSize = "100px"
@@ -42,19 +44,26 @@ if (
   navigator.userAgent.match(/iPhone/i)
 ) {
   console.log("Mobile")
-  this.document.getElementById("banner__text").style.fontSize = "37px";
+  this.document.getElementById("banner__text").style.fontSize = "45px";
   this.document.getElementById("banner__text").style.paddingLeft = "10px"
-  this.document.getElementById("menubicon").style.fontSize = "57px";
-  this.document.getElementById("ordersico").style.fontSize = "57px";
-  this.document.getElementById("cartbicon").style.fontSize = "57px";
+  this.document.getElementById("menubicon").style.fontSize = "66px";
+  this.document.getElementById("ordersico").style.fontSize = "66px";
+  this.document.getElementById("cartbicon").style.fontSize = "66px";
   this.document.getElementById("rightMenu").style.marginTop = "101px";
-  this.document.getElementById("sidebarelements").style.fontSize = "37px";
-  this.document.getElementById("sidebarelements1").style.fontSize = "37px";
-  this.document.getElementById("sidebarelements2").style.fontSize = "37px";
-  this.document.getElementById("sidebarelements").style.padding = "50px"
-  this.document.getElementById("sidebarelements1").style.padding = "50px"
-  this.document.getElementById("sidebarelements2").style.padding = "50px"
+  this.document.getElementById("sidebarelements").style.fontSize = "45px";
+  this.document.getElementById("sidebarelements1").style.fontSize = "45px";
+  this.document.getElementById("sidebarelements2").style.fontSize = "45px";
+  this.document.getElementById("sidebarelements").style.padding = "39px"
+  this.document.getElementById("sidebarelements1").style.padding = "39px"
+  this.document.getElementById("sidebarelements2").style.padding = "39px"
   this.document.getElementById("rightMenu").style.width = "100%";
+  this.document.getElementById("headings").style.fontSize = "150px";
+  this.document.getElementById("bestbagshead").style.fontSize = "45px";
+  this.document.getElementById("gotago").style.fontSize = "35px";
+  this.document.getElementById("buttext").style.fontSize = "35px";
+  this.document.getElementById("butbut").style.width = "350px";
+  this.document.getElementById("butbut").style.height = "110px";
+  this.document.getElementById("paratext").style.fontSize = "35px";
 }
 else{
   console.log("Desktop")
