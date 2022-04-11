@@ -49,7 +49,7 @@ if (
   this.document.getElementById("menubicon").style.fontSize = "66px";
   this.document.getElementById("ordersico").style.fontSize = "66px";
   this.document.getElementById("cartbicon").style.fontSize = "66px";
-  this.document.getElementById("rightMenu").style.marginTop = "101px";
+  this.document.getElementById("rightMenu").style.marginTop = "110px";
   this.document.getElementById("sidebarelements").style.fontSize = "45px";
   this.document.getElementById("sidebarelements1").style.fontSize = "45px";
   this.document.getElementById("sidebarelements2").style.fontSize = "45px";
@@ -63,15 +63,18 @@ if (
   this.document.getElementById("buttext").style.fontSize = "35px";
   this.document.getElementById("butbut").style.width = "350px";
   this.document.getElementById("butbut").style.height = "110px";
-  this.document.getElementById("paratext").style.fontSize = "35px";
-  this.document.getElementById("paratext1").style.fontSize = "35px";
-  this.document.getElementById("paratext2").style.fontSize = "35px";
+  this.document.getElementById("paratext").style.fontSize = "40px";
+  this.document.getElementById("paratext1").style.fontSize = "40px";
+  this.document.getElementById("paratext2").style.fontSize = "40px";
   this.document.getElementById("paratext").style.paddingLeft = "30px"
   this.document.getElementById("paratext").style.paddingRight = "30px"
   this.document.getElementById("paratext1").style.paddingLeft = "30px"
   this.document.getElementById("paratext1").style.paddingRight = "30px"
   this.document.getElementById("paratext2").style.paddingLeft = "30px"
   this.document.getElementById("paratext2").style.paddingRight = "30px"
+  this.document.getElementById("cardbody-1").style.width = "430px"
+  this.document.getElementById("cardbody-2").style.width = "430px"
+  this.document.getElementById("cardbody-3").style.width = "430px"
 }
 else{
   console.log("Desktop")
