@@ -64,6 +64,14 @@ if (
   this.document.getElementById("butbut").style.width = "350px";
   this.document.getElementById("butbut").style.height = "110px";
   this.document.getElementById("paratext").style.fontSize = "35px";
+  this.document.getElementById("paratext1").style.fontSize = "35px";
+  this.document.getElementById("paratext2").style.fontSize = "35px";
+  this.document.getElementById("paratext").style.paddingLeft = "30px"
+  this.document.getElementById("paratext").style.paddingRight = "30px"
+  this.document.getElementById("paratext1").style.paddingLeft = "30px"
+  this.document.getElementById("paratext1").style.paddingRight = "30px"
+  this.document.getElementById("paratext2").style.paddingLeft = "30px"
+  this.document.getElementById("paratext2").style.paddingRight = "30px"
 }
 else{
   console.log("Desktop")
