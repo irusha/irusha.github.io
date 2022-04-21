@@ -19,6 +19,13 @@ function w3_open() {
   }
     
 }
+
+function adjust(){
+  for(i = 10; i>=0; i--){
+    //console.log(i)
+    this.document.getElementById("shipping-statement").style.padding = i+"px";
+  }
+}
 if(document.body.clientWidth < 400){
   this.alert("Your screensize may not compatible with the website")
 }
@@ -31,8 +38,6 @@ window.addEventListener("resize", function(event) {
   if(document.body.clientWidth < 600){
     console.log("Ok")
     this.document.getElementById("headings").style.fontSize = "70px"
-    this.document.getElementById("headings1").style.fontSize = "70px"
-    this.document.getElementById("headings2").style.fontSize = "70px"
     }
   else{
     this.document.getElementById("headings").style.fontSize = "100px"
@@ -75,6 +80,10 @@ if (
   this.document.getElementById("cardbody-1").style.width = "430px"
   this.document.getElementById("cardbody-2").style.width = "430px"
   this.document.getElementById("cardbody-3").style.width = "430px"
+  this.document.getElementById("cardbody-1").style.height = "310px"
+  this.document.getElementById("cardbody-2").style.height = "310px"
+  this.document.getElementById("cardbody-3").style.height = "355px"
+  console.log(this.document.getElementsByClassName("para2"))
 }
 else{
   console.log("Desktop")
