@@ -1,15 +1,26 @@
-{% extends 'base.html' %}
-
-{% block content %}
-    <h1>{% block title %} Welcome to FlaskBlog {% endblock %}</h1>
-    {% for post in posts %}
-        <a href="{{ url_for('post', post_id=post['id']) }}">
-            <h2>{{ post['title'] }}</h2>
-        </a>
-        <span class="badge badge-primary">{{ post['created'] }}</span>
-        <a href="{{ url_for('edit', id=post['id']) }}">
-            <span class="badge badge-warning">Edit</span>
-        </a>
-        <hr>
-    {% endfor %}
-{% endblock %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Card Data
+        </title>
+    </head>
+    <body>
+        <h1>
+            Colombo
+        </h1>
+        <img src="https://cdn.britannica.com/61/192661-050-997DE572/Colombo-Sri-Lanka.jpg?w=300&h=169&c=crop">
+        <p>Enjoy the tranquility of the warm amazing beach with the turquoise sea and good food. This is the place you want to spend your holidays  1</p>
+        <h1>
+            Bucharest
+        </h1>
+        <img src="https://d34bnnac3cxu5i.cloudfront.net/uploads/2021/02/bucuresti-3586306_640.jpg">
+        <p>Enjoy the tranquility of the warm amazing beach with the turquoise sea and good food. This is the place you want to spend your holidays  1</p>
+        <h1>
+            Grado: Italia
+        </h1>
+        <img src="https://thumbs.dreamstime.com/b/sunrise-over-sea-obelisk-rocks-grado-lagoon-province-gorizia-italy-island-sun-sunrise-over-sea-174821520.jpg">
+        <p>Enjoy the tranquility of the warm amazing beach with the turquoise sea and good food. This is the place you want to spend your holidays  1</p>
+    
+    </body>
+</html>
