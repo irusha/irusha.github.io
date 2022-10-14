@@ -37,12 +37,12 @@ html, body {
 }
 html, body {
 	font-family: Comfortaa_Regular;
-	font-size: 13px;
-	font-weight: 900px;
+	font-size: 15px;
 	background-color:#ebcfe7;
 	background-image:url(../images/bg.png);
 	background-position:left top;
 	background-repeat:repeat-x;
+	font-weight: 600;
 	color:#a830a4;
 	margin:0 0 1px;
 	height:100%;
@@ -235,7 +235,7 @@ a.photo_hover3 {
 	border: 1px solid #f2dcef;
 }
 a.photo_hover3:hover {
-	border: 1px solid #E1E1E1;
+	border: 1px solid #f2dcef;
 	background-color:white;
 	opacity:0.9;
 	z-index:1000;
@@ -245,16 +245,16 @@ a.photo_hover2 {
 	float: right;
 	margin:5px 13px 8px 0;
 	padding: 8px;
-	-moz-box-shadow: 3px 3px #F2EFDC;
-	-webkit-box-shadow: 3px 3px #F2EFDC;
-	box-shadow: 3px 3px #F2EFDC;
+	-moz-box-shadow: 3px 3px #f2dcef;
+	-webkit-box-shadow: 3px 3px #f2dcef;
+	box-shadow: 3px 3px #f2dcef;
 }
 a.photo_hover2 {
 	background-color:white;
-	border: 1px solid #F2EFDC;
+	border: 1px solid #f2dcef;
 }
 a.photo_hover2:hover {
-	border: 1px solid #E1E1E1;
+	border: 1px solid #f2dcef;
 	background-color:white;
 	opacity:0.5;
 	z-index:1000;
@@ -309,7 +309,7 @@ nav {
 	height:45px;
 	top:58px;
 	right:0px;
-	background-color:#E3D8CA;
+	background-color:#e0cae3;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 }
@@ -399,7 +399,7 @@ nav ul li a:hover {
 	margin-top:10px;
 	padding:10px;
 	display: inline-block;
-	color:#F4EEDE;
+	color:#f4def1;
 	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
@@ -407,7 +407,7 @@ nav ul li a:hover {
 	font-size:30px;
 }
 .button1:hover {
-	background-color:#DB778E;
+	background-color:#a777db;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 }

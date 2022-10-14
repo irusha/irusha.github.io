@@ -126,7 +126,7 @@ top:0;
  h1 {
  font-size:50px;
  line-height:1.3;
- color:#F4EEDE;
+ color:#f4def4;
  text-transform:none;
  font-style:italic;
  text-align:left;
@@ -174,7 +174,7 @@ line-height:1.9;
  display:block;
 }
  a.menu:link {
-color:#DBCDBB;
+color:#dabbdb;
 }
  .button1 {
  display:none;
@@ -193,7 +193,7 @@ color:#8e3090;
  h1 {
  font-size: 30px;
  line-height:1.3;
- color:#F4EEDE;
+ color:#f4def4;
  text-transform:none;
  font-style:italic;
  text-align:left;
@@ -227,7 +227,7 @@ color:#8e3090;
  h1 {
  font-size: 23px;
  line-height:1.3;
- color:#F4EEDE;
+ color:#f4def4;
  text-transform:none;
  font-style:italic;
  text-align:left;
