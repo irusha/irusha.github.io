@@ -38,11 +38,12 @@ html, body {
 html, body {
 	font-family: Comfortaa_Regular;
 	font-size: 13px;
-	background-color:#EBE4CF;
+	font-weight: 900px;
+	background-color:#ebcfe7;
 	background-image:url(../images/bg.png);
 	background-position:left top;
 	background-repeat:repeat-x;
-	color:#904E2B;
+	color:#a830a4;
 	margin:0 0 1px;
 	height:100%;
 	line-height: 1.5;
@@ -81,9 +82,9 @@ h2 {
 h3 {
 	font-size: 28px;
 	line-height:0.9;
-	color:#904A30;
+	color:#8e3090;
 	text-align:left;
-	border-bottom:1px dashed #904A30;
+	border-bottom:1px dashed #8e3090;
 	margin-bottom:10px;
 	padding-bottom:10px;
 	text-shadow: none;
@@ -93,7 +94,7 @@ h3 {
 h4 {
 	font-size: 16px;
 	line-height:1.3;
-	color:#904A30;
+	color:#8e3090;
 	text-transform:none;
 	font-style:italic;
 	text-align:left;
@@ -103,7 +104,7 @@ h4 {
 }
 h4 span {
 	line-height:1.5;
-	color:#904E2B;
+	color:#8e3090;
 	font-size:14px;
 	text-transform:none;
 	display:block;
@@ -111,14 +112,14 @@ h4 span {
 h5 {
 	font-size: 28px;
 	line-height:0.9;
-	color:#904A30;
+	color:#8e3090;
 	text-align:left;
-	border-bottom:1px dashed #904A30;
+	border-bottom:1px dashed #8e3090;
 	margin-bottom:10px;
 	padding-bottom:10px;
 	text-shadow: none;
 	font-family:'cookies';
-	text-shadow: 2px 3px 3px #EEE8DF;
+	text-shadow: 2px 3px 3px #eedfee;
 }
 /***************************************************
 			    Main containers
@@ -138,7 +139,7 @@ h5 {
 .group1 {
 	float: left;
 	position: relative;
-	background:#DBCDBB;
+	background:#dbbbd0;
 	padding:15px;
 	margin-bottom:10px;
 	-moz-border-radius: 5px;
@@ -147,7 +148,7 @@ h5 {
 .group2 {
 	float: left;
 	position: relative;
-	background:#DBCDBB;
+	background:#dbbbd0;
 	padding:15px;
 	margin-bottom:10px;
 	-moz-border-radius: 5px;
@@ -156,7 +157,7 @@ h5 {
 .group3 {
 	float: right;
 	position: relative;
-	background:#DBCDBB;
+	background:#dbbbd0;
 	padding:15px;
 	margin-bottom:10px;
 	-moz-border-radius: 5px;
@@ -221,9 +222,9 @@ header {
 	float: left;
 	margin:5px 13px 8px 0;
 	padding: 8px;
-	-moz-box-shadow: 3px 3px #F2EFDC;
-	-webkit-box-shadow: 3px 3px #F2EFDC;
-	box-shadow: 3px 3px #B59B82;
+	-moz-box-shadow: 3px 3px #b582b3;
+	-webkit-box-shadow: 3px 3px #b582b3;
+	box-shadow: 3px 3px #b582b3;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -231,7 +232,7 @@ header {
 }
 a.photo_hover3 {
 	background-color:white;
-	border: 1px solid #F2EFDC;
+	border: 1px solid #f2dcef;
 }
 a.photo_hover3:hover {
 	border: 1px solid #E1E1E1;
@@ -320,7 +321,7 @@ nav ul li {
 nav ul li a {
 	font-size: 20px;
 	font-family:'cookies';
-	color:#904A30;
+	color:#8e3090;
 	font-weight:normal;
 	display:block;	/* IE6, IE7 line height fix */
 	background-color:transparent;
@@ -329,7 +330,7 @@ nav ul li a {
 	padding:5px;
 }
 nav ul li a:hover {
-	color: #B49570;
+	color: #b470ad;
 }
 .content_menu {
 	float: left;
@@ -347,7 +348,7 @@ nav ul li a:hover {
 .content_menu ul li a {
 	font-size:13px;
 	line-height:normal;
-	color:#904E2B;
+	color:#8e3090;
 	text-align:left;
 	text-decoration:none;
 	background-image:url(../images/spot.png);
@@ -356,7 +357,7 @@ nav ul li a:hover {
 	padding-left:25px;
 }
 .content_menu ul li a:hover {
-	color:#C8816F;
+	color:#c86fc6;
 }
 /***************************************************
 				   SPECIFIC
@@ -373,9 +374,9 @@ nav ul li a:hover {
 	position:relative;
 	margin-top:12px;
 	padding:9px;
-	background-color:#6C4831;
+	background-color:#6c3169;
 	display: inline-block;
-	color:#F4EEDE;
+	color:#f4def2;
 	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
@@ -385,7 +386,7 @@ nav ul li a:hover {
 	border-radius: 5px;
 }
 .button:hover {
-	background-color:#DB778E;
+	background-color:#a777db;
 }
 .button:active {
 	position: relative;
@@ -420,7 +421,7 @@ nav ul li a:hover {
 	left:670px;
 }
 a.menu:link {
-	color:#904E2B;
+	color:#902b83;
 }
 /*			FONT-FACE	      */
 

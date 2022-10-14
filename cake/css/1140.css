@@ -146,19 +146,19 @@ line-height:1.9;
  h3 {
  font-size: 28px;
  line-height:0.9;
- color:#904A30;
+ color:#8e3090;
  text-align:left;
- border-bottom:1px dashed #904A30;
+ border-bottom:1px dashed #8e3090;
  margin-bottom:10px;
  padding-bottom:10px;
  text-shadow: none;
  font-family:'cookies';
- text-shadow: 2px 3px 3px #EEE8DF;
+ text-shadow: 2px 3px 3px #eedfee;
 }
  h4 {
  font-size: 16px;
  line-height:1.3;
- color:#904A30;
+ color:#8e3090;
  text-transform:none;
  font-style:italic;
  text-align:left;
@@ -168,7 +168,7 @@ line-height:1.9;
 }
  h4 span {
  line-height:1.5;
- color:#904E2B;
+ color:#8e3090;
  font-size:14px;
  text-transform:none;
  display:block;
@@ -180,7 +180,7 @@ color:#DBCDBB;
  display:none;
 }
  a.menu:link {
-color:#904E2B;
+color:#8e3090;
 }
 }
  @media handheld, only screen and (max-width: 480px) {
