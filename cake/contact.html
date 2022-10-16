@@ -63,15 +63,17 @@
         <article>
             Or fill the form below. We will reach you ASAP.
             <div>
-              <form action="POST">
+              <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="02d9a1e3-9260-4c64-980d-10457837f430">
                 <br>
                 <h4>Name</h4>
-                <input type="text" class="textBoxes">
+                <input type="text" name="name" class="textBoxes" required>
                 <h4>Email</h4>
-                <input type="text" class="textBoxes">
+                <input type="email" name="email" class="textBoxes" required>
                 <h4>Phone Number</h4>
-                <input type="text" class="textBoxes">
-                <button class="button" style="height: 35px;">Submit</button>
+                <input type="number" name="phone_number" class="textBoxes" required>
+                <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                <button type="submit" class="button" style="height: 35px;">Submit</button>
               </form>
             </div>
             <br>
