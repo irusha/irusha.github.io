@@ -1,0 +1,116 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+}
+
+.sidebar{
+    margin-left: 18px;
+    margin-bottom: 0;
+    margin-top: 25px;
+    padding-top: 55px;
+    
+    padding-right: 80px;
+    width: fit-content;
+    border-right: 1px solid #DCDCDC;
+}
+
+a{
+    text-decoration: none;
+    color: #14B8A2;
+}
+
+.list{
+    
+    color: #14B8A2;
+    list-style: none;
+    padding-left: 18px;
+    margin-block-start: 0.5em
+}
+
+.list li{
+    padding-bottom: 10px;
+    font-size: 13px;
+    font-weight: 700;
+    width: fit-content;
+}
+
+.list li:hover{
+    text-decoration: underline;
+}
+
+.main-list{
+    
+
+}
+
+h4{
+    margin-block-end: 0em;
+}
+
+li svg{
+    width: 0.7em;
+}
+
+h1{
+    font-family: "Poppins";
+    font-weight: 300;
+}
+
+.page_body{
+    margin: 35px;
+}
+
+.page_body h1{
+    margin-block-end: 0.0em;
+    padding: 0;
+    height: fit-content;
+}
+
+.page_body p{
+    margin-block-start: 0em;
+    padding: 0;
+    font-weight: 700;
+    display: block;
+    font-size: 11px;
+    color: rgb(115, 111, 111);
+}
+
+.movie-cards{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.card{
+    padding: 25px;
+    cursor: pointer;
+    transition: all 0.07s ease-in-out 0.01s;
+    
+}
+
+.card:hover{
+    transform: scale(1.03);
+    
+    transition: all 0.07s ease-in-out 0.01s;
+}
+
+.card:hover .scenery{
+    border-bottom: 1px solid #544e4e;
+}
+
+.movie-cards img{
+    background: linear-gradient(to right, transparent, mistyrose);
+    width: 220px;
+}
+
+.movie-cards p{
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    max-width: 220px;
+    padding-top: 15px;
+}
